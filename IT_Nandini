@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=0.45in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=MidnightBlue,
+    linkcolor=MidnightBlue,
+    citecolor=MidnightBlue
+}
+
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*,nosep}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% ---------- Personal Details ----------
+\newcommand{\Phone}{+91 96769 64384}
+\newcommand{\Email}{heerekarnandini@gmail.com}
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{HEEREKAR NANDINI}}\\[4pt]
+\href{tel:+919676964384}{\Phone} $\diamond$ Hyderabad, Telangana, India\\
+\href{mailto:\Email}{\Email} $\diamond$
+\end{center}
+
+\section{Professional Profile}
+
+Entry-level Software Engineer with enterprise experience supporting Google's Gemini platform at Wipro. Strong foundation in Python, HTML, CSS and SQL with academic experience in IoT and Machine Learning projects. Passionate about software development, problem solving and continuous learning with the ability to quickly adapt to new technologies and collaborative environments.
+
+\section{Technical Skills}
+
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}l X@{}}
+Languages & Python, SQL, HTML5, CSS3\\
+Frontend & HTML5, CSS3, Responsive Web Design\\
+Concepts & SDLC, Object-Oriented Programming, Debugging, Testing Fundamentals\\
+Tools & VS Code, Git (Basic), Microsoft Office, Windows\\
+Professional & Problem Solving, Communication, Team Collaboration, Adaptability, Continuous Learning
+\end{tabularx}
+
+\section{Professional Experience}
+
+\textbf{AI Operations Associate} \hfill Mar 2025 -- Present\\
+\textit{Wipro (Google Gemini Project), Hyderabad}
+
+\begin{itemize}
+\item Supported enterprise AI operations by following structured workflows and quality-focused processes.
+\item Performed review and validation tasks while maintaining high standards of accuracy and consistency.
+\item Collaborated with cross-functional teams to ensure smooth execution of operational activities.
+\item Assisted teammates through knowledge sharing and effective communication.
+\item Strengthened analytical thinking, documentation practices and problem-solving skills in a fast-paced environment.
+\item Adapted quickly to evolving workflows and contributed to continuous process improvement.
+\end{itemize}
+
+\textbf{Intern} \hfill One Month\\
+\textit{Sapna IoT Solutions Pvt. Ltd., Hyderabad}
+
+\begin{itemize}
+\item Worked on the implementation of a Car Parking System using Verilog HDL.
+\item Gained practical exposure to embedded systems and IoT development.
+\item Collaborated with team members during project implementation and testing.
+\end{itemize}
+
+\section{Selected Projects}
+
+\begin{itemize}
+
+\item \textbf{IoT Based Weather Monitoring System}
+Designed and developed an IoT-based weather monitoring system using sensors to monitor environmental parameters such as temperature, humidity, rainfall and pressure. Integrated ThingSpeak Cloud for real-time data visualization.
+
+\item \textbf{IoT Based Weather Monitoring and Weather Prediction Using Machine Learning}
+Developed an intelligent weather monitoring solution by integrating machine learning algorithms for weather prediction using historical and real-time sensor data.
+
+\end{itemize}
+
+\section{Education}
+
+\textbf{Bachelor of Engineering (Electronics and Communication Engineering)} \hfill 2024\\
+Stanley College of Engineering and Technology for Women \hfill CGPA: 7.6
+
+\section{Certifications}
+
+\begin{itemize}
+\item Foundation of Python Programming
+\item Antenna Design using HFSS Workshop
+\item Institution of Electronics and Telecommunication Engineers (IETE) Participation Certificate
+\end{itemize}
+
+\end{document}
