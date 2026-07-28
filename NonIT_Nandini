@@ -1,0 +1,213 @@
+\documentclass[11pt,a4paper]{article}
+
+%----------------------------------------
+% Packages
+%----------------------------------------
+\usepackage[a4paper,margin=0.65in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{helvet}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*,itemsep=3pt}
+
+%----------------------------------------
+% Section Formatting
+%----------------------------------------
+
+\titleformat{\section}
+{\large\bfseries\color{MidnightBlue}}
+{}{0pt}{}
+[\color{MidnightBlue}\titlerule]
+
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+%----------------------------------------
+% Document
+%----------------------------------------
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+
+{\Huge\bfseries HEEREKAR NANDINI}
+
+\vspace{4pt}
+
+{\large\color{MidnightBlue}Trust \& Safety Associate}
+
+\vspace{8pt}
+
+\faPhone\ +91 96769 64384 \quad
+\faEnvelope\ \href{mailto:heerekarnandini@gmail.com}{heerekarnandini@gmail.com}
+
+\vspace{4pt}
+
+\faMapMarker* Hyderabad, Telangana \quad
+
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Professional Summary}
+
+Trust \& Safety Associate with experience supporting Google's Gemini platform at Wipro. Skilled in content moderation, policy enforcement, platform safety, quality assurance and content risk assessment. Adept at making accurate moderation decisions while maintaining operational excellence in high-volume environments.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Core Competencies}
+
+\begin{tabularx}{\textwidth}{XX}
+
+• Trust \& Safety Operations &
+• Content Moderation \\
+
+• Policy Enforcement &
+• Community Guidelines \\
+
+• Content Classification &
+• Policy Interpretation \\
+
+• Quality Assurance &
+• Risk Assessment \\
+
+• Workflow Management &
+• Documentation \\
+
+• Google Workspace &
+• Microsoft Office \\
+
+• Communication &
+• Decision Making
+
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Professional Experience}
+
+\textbf{Trust \& Safety Associate}
+\hfill
+\textbf{Mar 2025 -- Present}
+
+\textit{Wipro | Google Gemini Project}
+
+\begin{itemize}
+
+\item Reviewed user-generated and AI-generated content while enforcing platform policies and community guidelines.
+
+\item Analysed sensitive content to identify policy violations and support platform safety.
+
+\item Maintained high moderation accuracy through consistent policy interpretation and quality standards.
+
+\item Worked with cross-functional teams to improve workflow efficiency and operational consistency.
+
+\item Adapted quickly to policy updates, moderation procedures and changing business requirements.
+
+\item Contributed to process improvement initiatives and knowledge sharing within the team.
+
+\end{itemize}
+
+\vspace{5pt}
+
+\textbf{Intern}
+\hfill
+\textbf{1 Month}
+
+\textit{Sapna IoT Solutions Pvt. Ltd.}
+
+\begin{itemize}
+
+\item Developed a Car Parking System using Verilog HDL.
+
+\item Assisted in implementation, testing and technical documentation.
+
+\item Collaborated with engineers throughout the development lifecycle.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+
+\textbf{Bachelor of Engineering (ECE)}
+\hfill
+2024
+
+Stanley College of Engineering and Technology for Women
+
+CGPA: 7.6
+
+\vspace{6pt}
+
+\textbf{Intermediate (MPC)}
+\hfill
+2020
+
+Annie Besant Junior College for Girls
+
+86\%
+
+\vspace{6pt}
+
+\textbf{SSC}
+\hfill
+2018
+
+Pragati Vidya Niketan High School
+
+80\%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+
+\begin{tabularx}{\textwidth}{>{\bfseries}lX}
+
+Programming &
+Python, SQL \\
+
+Web Technologies &
+HTML5, CSS3 \\
+
+Tools &
+Google Workspace, Microsoft Office, Windows OS \\
+
+Professional &
+Communication, Critical Thinking, Attention to Detail, Teamwork, Adaptability
+
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+
+\textbf{IoT Based Weather Monitoring System}
+
+Developed an IoT-based weather monitoring system using environmental sensors and ThingSpeak Cloud for real-time monitoring and visualization.
+
+\vspace{6pt}
+
+\textbf{Weather Prediction Using Machine Learning}
+
+Integrated IoT sensor data with machine learning algorithms to predict weather conditions using historical and real-time environmental data.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Certifications}
+
+\begin{itemize}
+
+\item Foundation of Python Programming
+
+\item Institution of Electronics and Telecommunication Engineers (IETE)
+
+\item Antenna Design using HFSS Workshop
+
+\end{itemize}
+
+\end{document}
