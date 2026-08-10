@@ -1,3 +1,5 @@
+3269
+
 # 💻 System Full Info Script — Guide
 
 ## What It Does
